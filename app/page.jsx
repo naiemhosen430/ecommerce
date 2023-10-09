@@ -14,15 +14,9 @@ import InstaFeedSection from "./components/ReUseableComponents/InstaFeedSection"
 export default function Home() {
   return (
     <>
-      {/* herro start */}
       <Hero />
-      {/* herro end */}
-      {/* populer course start */}
       <NewInStore />
-      {/* populer course end */}
-      {/* all course start */}
       <NewInStore />
-      {/* all course end */}
       <Banner />
       <CetagorySection />
       <TrandingProduct />
