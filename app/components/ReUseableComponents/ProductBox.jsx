@@ -5,7 +5,16 @@ export default function ProductBox({ totalitems }) {
   return (
     <>
       <div className="text-center">
-        <SingleProduct key={i} />
+        <SingleProduct />
+        <SingleProduct />
+        <SingleProduct />
+        <SingleProduct />
+        <SingleProduct />
+        <SingleProduct />
+        <SingleProduct />
+        <SingleProduct />
+        <SingleProduct />
+        <SingleProduct />
       </div>
     </>
   );
