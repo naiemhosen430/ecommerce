@@ -1,14 +1,14 @@
 import React from "react";
-import PageHeader from "../components/ReUseableComponents/PageHeader";
+// import PageHeader from "../components/ReUseableComponents/PageHeader";
 import Link from "next/link";
-import MainProductField from "../components/Shop/MainProductField";
+// import MainProductField from "../components/Shop/MainProductField";
 
 export default function page() {
   return (
     <>
       <div>
         <div>
-          <PageHeader pagename={"shop"} />
+          {/* <PageHeader pagename={"shop"} />
 
           <div className="text-center p-5 py-0">
             <Link
@@ -43,7 +43,7 @@ export default function page() {
             </Link>
           </div>
 
-          <MainProductField />
+          <MainProductField /> */}
         </div>
       </div>
     </>
