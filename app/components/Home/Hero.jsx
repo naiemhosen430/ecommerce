@@ -72,7 +72,9 @@ export default class Hero extends Component {
                   <h1 className="lg:p-4 px-0 text-white font-bold lg:text-6xl text-4xl">
                     {slide.header}
                   </h1>
-                  <p className="p-4 py-10 text-slate-500">{slide.des}</p>
+                  <p className="p-4 py-10 lg:block hidden text-slate-500">
+                    {slide.des}
+                  </p>
                   <div className="flex justify-center items-center space-x-4">
                     <button className="text-center rounded-lg text-slate-800 font-bold py-2 px-4 hover:bg-slate-400 bg-white">
                       View All
