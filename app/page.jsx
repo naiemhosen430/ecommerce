@@ -8,14 +8,11 @@ import ShopByCetagory from "./components/Home/ShopByCetagory";
 import ProductBanner from "./components/Home/ProductBanner";
 import ThreeBoxSection from "./components/Home/ThreeBoxSection";
 import NewsAndEvent from "./components/Home/NewsAndEvent";
-import BrandSection from "./components/Home/BrandSection";
-import InstaFeedSection from "./components/ReUseableComponents/InstaFeedSection";
 
 export default function Home() {
   return (
     <>
       <Hero />
-      <NewInStore />
       <NewInStore />
       <Banner />
       <CetagorySection />
@@ -25,8 +22,6 @@ export default function Home() {
       <ProductBanner />
       <ThreeBoxSection />
       <NewsAndEvent />
-      <BrandSection />
-      <InstaFeedSection />
     </>
   );
 }

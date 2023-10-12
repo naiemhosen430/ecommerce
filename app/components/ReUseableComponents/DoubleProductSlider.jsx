@@ -1,17 +1,14 @@
 import React from "react";
-import Slider from "./Slider";
+import SingleProductSlider from "./SingleProductSlider";
 
 export default function DoubleProductSlider() {
   return (
     <>
-      <div>
-        <Slider item={1} />
+      <div className="w-12/12">
+        <SingleProductSlider item={1} />
       </div>
-      <div>
-        <Slider item={1} />
-      </div>
-      <div>
-        <Slider item={1} />
+      <div className="w-12/12">
+        <SingleProductSlider item={1} />
       </div>
     </>
   );

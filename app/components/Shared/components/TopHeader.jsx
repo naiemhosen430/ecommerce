@@ -10,22 +10,22 @@ export default function TopHeader() {
         <div class="w-3/12 text-6xl flex space-x-2 items-center justify-center">
           <div className="w-2/12"></div>
           <div className="w-10/12">
-            <h1 className="text-xl">heten will be here</h1>
-            <h1 className="text-lg">sub text</h1>
+            <h1 className="text-xl">+8801700000001</h1>
+            <h1 className="text-lg">Phone Number</h1>
           </div>
         </div>
         <div class="w-3/12 text-6xl flex space-x-2 items-center justify-center">
           <div className="w-2/12"></div>
           <div className="w-10/12">
-            <h1 className="text-xl">heten will be here</h1>
-            <h1 className="text-lg">sub text</h1>
+            <h1 className="text-xl">example@gmail.com</h1>
+            <h1 className="text-lg">Email Adress</h1>
           </div>
         </div>
         <div class="w-3/12 text-6xl flex space-x-2 items-center justify-center">
           <div className="w-2/12"></div>
           <div className="w-10/12">
-            <h1 className="text-xl">heten will be here</h1>
-            <h1 className="text-lg">sub text</h1>
+            <h1 className="text-xl">Dhaka, Bangladesh</h1>
+            <h1 className="text-lg">Adress</h1>
           </div>
         </div>
       </div>
