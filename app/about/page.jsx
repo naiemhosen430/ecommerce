@@ -6,7 +6,6 @@ import OurMission from "../components/About/OurMission";
 import OurGelary from "../components/About/OurGelary";
 import OurCustomers from "../components/About/OurCustomers";
 import OurStory2 from "../components/About/OurStory2";
-import InstaFeedSection from "../components/ReUseableComponents/InstaFeedSection";
 
 export default function page() {
   return (
@@ -29,7 +28,6 @@ export default function page() {
         <OurGelary />
         <OurCustomers />
         <OurStory2 />
-        <InstaFeedSection />
       </div>
     </>
   );
