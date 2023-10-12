@@ -23,7 +23,7 @@ export default function MainMav() {
   return (
     <>
       <div className="flex w-screen overflow-hidden z-20 sticky bg-red-950 top-0 justify-center py-4 shadow-md items-center">
-        <div class="lg:hidden text-8xl w-9/12">
+        <div class="lg:hidden text-white font-bold text-8xl w-9/12">
           <Link href={"/"}>
             <h1 className="px-4 font-bold text-2xl">Name</h1>
           </Link>
